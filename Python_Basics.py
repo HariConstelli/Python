@@ -68,9 +68,99 @@ print(type(y))
 
 output:
 <class 'str'>
-<class 'str'>'''
+<class 'str'>
 
 
+#String: A String is a sequence of characters enclosed in quotes.
+s1 = 'Hari'
+s2 = 'Krishna'
 
+print(s1)
+print(s2)
 
+#Accessing Characters in String
 
+print(s1[0])
+print(s2[2])
+
+#Negetive Indexing
+
+print(s1[-1])
+print(s2[-2])
+
+#String Slicing
+print(s1[1:4])
+print(s2[-1:-3])
+
+#Reverse a String
+print(s1[::-1])
+print(s2[::-1])
+
+#Conditional Statements in Python
+#Conditional Statements are used to execute certain blocks of code based on specific conditions
+
+#If conditions
+age = 20
+if age >= 18:
+    print("Eligible to Vote")
+
+#If else allows us to specilfy a block of code that will execute if the conditions associated with if and elif statements evaluates to False
+
+age = 10
+if age <= 12:
+    print('Travel for free')
+else:
+    print('Pay for ticket')
+
+#elif statement
+#Elif statement in Python Stands for 'else if'. It allows us to check multiple conditions, providing a way to execute different blocks of code based on which condition is true.
+
+age = 25
+if age <= 12:
+    print('Child')
+elif age <= 19:
+    print('Teenager')
+elif age <= 35:
+    print('Young Adult')
+else:
+    print('Adult')
+
+#Operators in Python
+#Arithematic Operators
+a = 15
+b = 4
+print('Addition:', a+b)
+print('Substraction:', a-b)
+print('Multiply:', a*b)
+print('Division:', a/b)
+print('Floor division:', a//b)
+print('Modulos:', a%b)
+print('Exponentiation:', a**b)
+
+#Comparison Operators
+a = 13
+b = 33
+print(a >b)
+print(a < b)
+print(a == b)
+print(a != b)
+print(a >= b)
+print(a <= b)
+
+#Logical Operators 'and' 'or' 'not'
+
+a = True
+b = False
+print(a and b)
+print(a or b)
+print(not a)
+'''
+#Python Bitwise Operators
+a = 10
+b = 2
+print('Bitwise AND', a & b)
+print('Bitwise OR', a | b)
+print('Bitwise Not', ~a)
+print('Bitwise XOR', a ^ b)
+print('Bitwise right shift', a>>b)
+print('Bitwise left shift', a << b)
