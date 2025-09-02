@@ -1,7 +1,7 @@
 #Python is a High level programming language invented by Guido Van Rossum in 1991
 
 #First Program In Python
-
+'''
 name = input('Enter your name:')
 print("Hi", name, 'Welcome to Python')
 
@@ -11,7 +11,7 @@ age = 30
 'age is a variable which is assigned to that value 30'
 
 #Python Datatypes
-'''
+
 Numeric Datatypes: int(), float(), complex()
 
 a = 10
@@ -44,4 +44,33 @@ Boolean Datatype = bool
 
 set = {1,2,3,'a','b'}
 
-'''
+
+Type Converstion: Conversion of one datatype into another datatype
+
+a = '10'
+b = int(a)
+print(type(b))
+
+x = 10.20
+y = int(x)
+print(type(y))
+
+output:
+<class 'int'>
+<class 'int'>
+
+a = 10
+b = 10.25
+x = str(a)
+y = str(b)
+print(type(x))
+print(type(y))
+
+output:
+<class 'str'>
+<class 'str'>'''
+
+
+
+
+
